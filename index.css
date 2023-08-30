@@ -1,33 +1,57 @@
+body{
+    margin:0;
+}
+
+ header {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+header img{
+    width: 300px;
+}
+
+header p {
+    background-color: rgb(255, 244, 220);
+    padding: 15px;
+    color: rgb(1, 83, 45);
+    border-top: 2px solid gold; 
+}
+
+header span {
+    font-weight:bold;
+}
 .section1 {
-    width: 600px;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
-.immaginep {
-    
-    text-align: center;
-    
+.section1 video{
+    width: 100%;
 }
-
-.nav {
-    background-color: rgb(238, 224, 193);
-    padding: 1px;
-    color: rgb(1, 83, 45);
-    
-}
-
-.nav p strong {
-    font-variant-caps: all-small-caps;
-}
-
 .section1 h1 {
 font-size: 2em;
 }
-
-#h3{
+.section1 video + div{
+    text-align: center;
+    color: darkgray;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.section1 div + p {
+padding-left: 0;
+}
+.featured h3 {
     color: red;
 }
+.featured  h3,p {
+    margin: 0;
+    padding-left: 15px;
+}
+.featured p{
+    font-weight: bold;
+}
 
-.featured  h3 p {
-    
+.featured {
+    border-left: 2px solid gold;
 }
